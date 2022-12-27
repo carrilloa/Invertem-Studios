@@ -1,0 +1,166 @@
+/* Home Page*/
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+
+.nav-item{
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    margin-right: 2rem;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(242, 244, 247);
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: rgb(224, 90, 71);
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+.nav-item:nth-child(n+2) {
+    font-size: 20px;
+}
+
+.studio-name {
+    padding: 20px;
+    margin: 0px;
+    justify-items: center;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+.studio-name a {
+    text-decoration: none;
+    color: rgb(242, 244, 247);
+}
+
+
+
+.content {
+    align-self: center;
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(242, 244, 247);
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+
+}
+.footer-list a {
+    text-decoration: none;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+}
+
+.name {
+    margin-right: auto;
+
+}
+.footer-list:nth-child(2){
+    margin-left: auto;
+
+}
+body {
+    background-image: url(../Invertem-Studios/Photographs/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0%;
+}
+
+/* About Me*/
+
+.content-about {
+    padding: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 130vh;
+    height: 50vh;
+
+
+}
+
+.about-me {
+    color: rgb(242, 244, 247);
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-top: -100px;
+    width: 60vh;
+    margin-right: auto;
+    font-size: 18px;
+
+}
+
+.thomas-pic {
+    margin-right: auto;
+    margin-top: -60px;
+
+}
+/* Portfolio */
+
+.portfolios {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -100px;
+}
+
+.portfolios a {
+    text-decoration: none;
+    color: rgb(242, 244, 247);
+}
+
+.portfolios ul {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.portfolios li {
+    padding: 20px;
+    margin: auto;
+}
+
+.portfolios:first-child {
+    margin-bottom: auto;
+}
+
+.content-port {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}

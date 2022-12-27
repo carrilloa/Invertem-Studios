@@ -1,0 +1,2 @@
+- Fix logo- get right size with good quality
+- Find a nice font
